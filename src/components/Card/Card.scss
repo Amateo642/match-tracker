@@ -1,0 +1,125 @@
+.card {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0B0E12;
+    padding: 16px;
+
+    .preview {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+
+        .content {
+            flex:1 ;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .team {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 14px;
+    
+                .teamName h1{
+                    font-size: 16px;
+                }
+    
+                .logo {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        height: 48px;
+                        width: 48px;
+                    }
+                }      
+            }
+
+            .matchInfo {
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                .score h2{
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .arrow {
+            img {
+              transition: transform 300ms ease-in-out;
+            }
+          }
+          
+        .arrow--open {
+            img {
+            transform: rotate3d(0, 0, 1, 180deg);
+            }
+        }
+    }    
+    
+    .details {
+        padding: 12px;
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+
+            .squad {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 12px;
+                gap: 8px;
+    
+                .users {
+                    display: flex;
+                    justify-content: space-around;
+                    gap: 8px;
+    
+                    .user {
+                        flex: 1;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        background-color: #101318;
+                        padding: 8px 24px;
+                        gap: 8px;
+
+                        .userInfo {
+                            flex: 1;
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+
+                            .user-avatar {
+                                display: flex;
+    
+                                img {
+                                    height: 36px;
+                                    width: 36px;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            } 
+            
+            .teamInfo {
+                display: flex;
+                justify-content: space-between;
+                gap: 16px;
+                background-color: #101318;
+                padding: 14px 24px; 
+            }
+    }
+}

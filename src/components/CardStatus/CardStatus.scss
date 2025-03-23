@@ -1,0 +1,24 @@
+.card-status{
+    width: 92px;
+    height: 27px;
+    display: flex;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &--live {
+        background-color: #43AD28;
+    }
+    
+    &--finished {
+        background-color: #EB0237;
+    }
+    
+    &--preparing {
+        background-color: #EB6402;
+        width: 112px;
+    }
+}

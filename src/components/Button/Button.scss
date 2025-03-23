@@ -1,0 +1,50 @@
+@keyframes logo-spin {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+
+.button {
+
+    .btn-update {
+        display: flex;
+        width: 204px;
+        height: 56px;
+        background-color: #EB0237;
+        font-weight: 600;
+        font-size: 18px;
+        color: #ffffff;
+        border-radius: 4px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        font-family: "Inter", serif;
+        font-weight: 600;
+    }
+
+    img {
+        margin-left: 10px;
+    }
+
+    .btn-update--loading {
+        img {
+            animation: logo-spin 1s ease-out infinite;
+        }
+    }
+
+    .btn-update:active {
+        background-color: #A01131;
+    }
+
+    .btn-update:disabled {
+        background-color: #701328;
+    }
+
+    img {
+        width: 26px;
+        height: 26px;
+    }
+}

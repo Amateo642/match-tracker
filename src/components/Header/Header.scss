@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h1 {
+        font-family: 'TacticSans';
+        font-size: 32px;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .update {
+        height: 56px;
+        width: 696px;
+        display: flex;
+        justify-content: flex-end;
+
+        .text-update {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-right: 12px;
+            background-color: #0B0E12;
+    
+            img {
+                height: 28px;
+                width: 28px;
+                padding-right: 10px;
+            }
+        }
+    }
+}

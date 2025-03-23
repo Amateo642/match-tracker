@@ -1,0 +1,25 @@
+#root {
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 42px;
+  text-align: center;
+  background-color: #06080C;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.App{
+  min-height: 100%;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff7b64aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #fb6161aa);
+}
